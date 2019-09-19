@@ -1,0 +1,16 @@
+---
+  default: -p pretty -p qa -p chrome -p html -p json -p env_qa -p screen
+
+  source: --no-source
+  progress: --format progress
+  pretty: --format pretty
+  qa: ENV_TYPE=qa
+  env_qa: ENV_PREFIX=QA
+  html: --format html --out=log/report.html
+  json: --format json --out=log/report.json
+  screen: screenshot=true
+  chrome: BROWSER=chrome
+  chrome_headless: BROWSER=chrome_headless
+  firefox: BROWSER=firefox
+  firefox_headless: BROWSER=firefox_headless
+

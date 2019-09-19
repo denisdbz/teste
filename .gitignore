@@ -1,0 +1,5 @@
+log/*.json
+log/*.html
+log/screenshots/*
+Gemfile.lock
+.byebug_history
